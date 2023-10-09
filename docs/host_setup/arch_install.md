@@ -79,21 +79,26 @@ The following screen should appear:
 
 With the default config the follwing settings are set:
 
-* English Language
-* Swiss downlaod mirrors
-* Swiss locales settings
-* Disk configuration for a 512 GB NVME SSD
-* Luks disk encryption
-* Systemd-boot manager
-* Active swap
-* Hostname set to "soc_workstation"
-* Root password set to "malware"
-* User "soc_user" with password "malware" with sudo privileges
-* No desktop environment and audio drivers installed
-* Linux-hardenend kernel instead of default Linux kernel
-* Additional packages: vim, git, virt-manager, eog, firefox, gdm, gnome-control-center, gnome-menus, gnome-settings-daemon, gnome-shell, gnome-shell-extensions, gnome-text-editor, gnome-tweaks, orca, xdg-desktop-portal-gnome, xdg-user-dirs-gtk, tilix, wget, nautilus
-* Copy current network settings
-* Timezone "Europe/Zurich"
+| Description | Setting |
+|:------------|:--------|
+| Language| English |
+| Download Mirrors | Swiss |
+| Locales | Swiss |
+| Disk Configuration | set for 512 GB NVME SSD |
+| Disk Encrpytion | Yes |
+| Boot Manager | Grub2 |
+| Swap | Yes |
+| Hostname | soc_workstation |
+| Root password | malware |
+| Additional User | soc_user |
+| Additional User password | malware |
+| Additional User sudo privileges | Yes |
+| Desktop environment | None |
+| Audio drivers | None |
+| Kernel | linux-hardenend |
+| Additional packages | vim, git, virt-manager, eog, firefox, gdm, gnome-control-center, gnome-menus, gnome-settings-daemon, gnome-shell, gnome-shell-extensions, gnome-text-editor, gnome-tweaks, orca, xdg-desktop-portal-gnome, xdg-user-dirs-gtk, tilix, wget, nautilus |
+| Network settings | copy current |
+| Timezone | "Europe/Zurich" |
 
 Especially the disk configuration usually needs changes, for reasons of simplicity the best-effort partition layout is recommended.
 Chose the disk where the operating system should be installed:
