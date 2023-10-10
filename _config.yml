@@ -6,6 +6,7 @@ url: https://stretfordStart.github.io/soc_workstation_doc
 
 aux_links:
   SOC Workstation: https://github.com/stretfordStart/soc_workstation
+aux_links_new_tab: true
 
 color_scheme: nil
 
