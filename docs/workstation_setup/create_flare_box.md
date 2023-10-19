@@ -1,14 +1,20 @@
 ---
 layout: default
-title: Create Flare VM Box
+title: Create FlareVM Box
 parent: Workstation Setup
 navorder: 2
 ---
 
-# Create Flare VM Box
+# Create FlareVM Box
 
-This chapter describes how the FlareVM box was created and uploaded to Vagrant Cloud.
-Based on that you should be able to create an own FlareVM box for Vagrant Cloud and reuse it.
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 ---
 
@@ -40,3 +46,4 @@ It takes about one hour to create the box.
 ## Upload to Vagrant Cloud
 
 some steps..
+https://blog.ycshao.com/2017/09/16/how-to-upload-vagrant-box-to-vagrant-cloud/

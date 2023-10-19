@@ -49,7 +49,7 @@ Run `station list` to list the available wlan interfaces:
 	----------------------------------------------------
 	  wlan0     disconnected	
 ```
-Show available networks with: `station INTERFACENAME get-networks``.
+Show available networks with: `station INTERFACENAME get-networks`.
 To connect with a network use this command: `station INTERFACE_NAME connect SSID`.
 Exit iwctl with `exit`.
 
