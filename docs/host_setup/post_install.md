@@ -22,7 +22,7 @@ nav_order: 3
 
 If you have not changed the credentials, use the following to log in:
 | User | Password |
-| --- | --- |
+| :--- | :--- |
 | soc_user | malware |
 
 ## Run Postinstsall Script
