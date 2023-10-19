@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Adjust Archinstall Configuration
+title: Configure Archinstall
 parent: Workstation Setup
 navorder: 1
 ---
 
-# Adjust Archinstall Configuration
+# Configure Archinstall
 
 This chapter describes how you adjust the archinstall configuration.
 
