@@ -7,12 +7,24 @@ nav_order: 2
 
 # Arch Installation
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+---
+
 ## Preparation
 
 ### Set keyboard layout
 
 Swiss German:
-```
+
+``` bash
 loadkeys de_CH-latin1
 ```
 
@@ -20,7 +32,8 @@ loadkeys de_CH-latin1
 The symbols '-' & '\_' are located on the right side of the '0' button (+ Shift for '\_')
 
 List available Layouts:
-```
+
+``` bash
 localectl list-keymaps
 ```
 
@@ -28,6 +41,7 @@ localectl list-keymaps
 
 To setup a WLAN connection run `iwctl` and connect to a network.
 Run `station list` to list the available wlan interfaces:
+
 ```
 		    Devices in Station Mode				
 	----------------------------------------------------
@@ -35,42 +49,49 @@ Run `station list` to list the available wlan interfaces:
 	----------------------------------------------------
 	  wlan0     disconnected	
 ```
-
-Connect with a WLAN with this command: `station INTERFACE_NAME connect SSID WLAN_PASSWORD`.
+Show available networks with: `station INTERFACENAME get-networks``.
+To connect with a network use this command: `station INTERFACE_NAME connect SSID`.
 Exit iwctl with `exit`.
 
 Check if the connection works:
-```
+
+``` bash
 ping 8.8.8.8 -c 4
 ```
 
 ### Prepare archinstall
 
 Check version:
-```
+
+``` bash
 archinstall -v
 ```
 
 Tested version: 2.6.3, if you archinstall is older run this to update:
-```
+
+``` bash
 pacman -Sy archinstall
 ```
 
 ### Install git
 
-```
+``` bash
 pacman -Sy git
 ```
+
+---
 
 ## Installation
 
 Get configuration:
-```
+
+``` bash
 git clone https://github.com/stretfordStart/soc_workstation.git
 ```
 
 Run archinstall with predefined configuration:
-```
+
+``` bash
 archinstall --config soc_workstation/user-configuration.json --creds soc_workstation/user-credentials.json
 ```
 
