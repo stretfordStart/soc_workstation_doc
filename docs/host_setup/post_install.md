@@ -22,9 +22,13 @@ nav_order: 3
 
 If you have not changed the credentials, use the following to log in:
 | User | Password |
-| :--- | :--- |
+| :----- | :----- |
 | soc_user | malware |
 
 ## Run Postinstsall Script
 
-Run post install script.
+Open the terminal application (Tilix) and run the following command:
+
+``` bash
+sh /home/soc_user/soc_workstation/init.sh
+```
