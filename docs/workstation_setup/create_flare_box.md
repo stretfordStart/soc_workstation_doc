@@ -45,5 +45,5 @@ It takes about one hour to create the box.
 
 ## Upload to Vagrant Cloud
 
-some steps..
+some steps.. --> move to seperate page, as it is used by Flare and REMnux
 https://blog.ycshao.com/2017/09/16/how-to-upload-vagrant-box-to-vagrant-cloud/

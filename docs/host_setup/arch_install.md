@@ -51,8 +51,8 @@ Run `station list` to list the available wlan interfaces:
 ```
 
 - Show available networks with: `station INTERFACENAME get-networks`
-- To connect with a network use this command: `station INTERFACE_NAME connect SSID`
-- Exit iwctl with `exit`.
+- Connect a network with: `station INTERFACE_NAME connect SSID`
+- Exit iwctl with `exit`
 
 Check if the connection works:
 
@@ -74,6 +74,9 @@ Tested version: 2.6.3, if you archinstall is older run this to update:
 pacman -Sy archinstall
 ```
 
+{: .highlight}
+Sometimes this command fails becuase of an invalid key, initialise it with: `pacman-key --init`
+
 ### Install git
 
 ``` bash
@@ -93,10 +96,16 @@ git clone https://github.com/stretfordStart/soc_workstation.git
 Run archinstall with predefined configuration:
 
 ``` bash
-archinstall --config soc_workstation/user-configuration.json --creds soc_workstation/user-credentials.json
+archinstall --config soc_workstation/configuration.json --creds soc_workstation/credentials.json
 ```
 
-The following screen should appear:
+If your config is already tested on this device and no more adjustments are needed you can also speed up the process with the silent mode:
+
+``` bash
+archinstall --config soc_workstation/configuration.json --creds soc_workstation/credentials.json --silent
+```
+
+The following screen should appear after running archinstall in normal mode:
 ![Archinstall Screen](../../assets/images/archinstall.png)
 
 With the default config the follwing settings are set:
