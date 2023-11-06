@@ -20,7 +20,7 @@ navorder: 3
 
 ## Install base REMnux VM
 
-- OVA (Download)[https://docs.remnux.org/install-distro/get-virtual-appliance]
+- OVA [Download](https://docs.remnux.org/install-distro/get-virtual-appliance)
 - open with VirtualBox
 
 ## Adjust REMnux

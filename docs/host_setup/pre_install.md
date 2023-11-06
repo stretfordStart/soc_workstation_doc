@@ -24,7 +24,7 @@ Download the current version of Arch Linux [here](https://archlinux.org/download
 
 ## Create Install Media
 
-Create an installation medium with your prefered Tool such as [Rufus](https://rufus.ie/) or [balenaEtcher](https://etcher.balena.io/).
+Create an installation medium with your preferred Tool such as [Rufus](https://rufus.ie/) or [balenaEtcher](https://etcher.balena.io/).
 
 ## Disable Secureboot
 
