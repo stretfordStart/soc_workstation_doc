@@ -29,4 +29,8 @@ Create an installation medium with your prefered Tool such as [Rufus](https://ru
 ## Disable Secureboot
 
 Navigate to your workstations BIOS / UEFI settings and disable Secure Boot.
+
+## Enable VT-x
+
+Later on virtualization will be needed, so make sure to enable it now, as this also needs to be adjusted within the BIOS / UEFI settings.
 Now you should be ready to start the Linux Arch installation by booting from the previously created installation medium.
