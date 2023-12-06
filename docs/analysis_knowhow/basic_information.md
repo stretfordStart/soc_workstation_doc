@@ -2,7 +2,7 @@
 layout: default
 title: Basic Information
 parent: Analysis Knowhow
-navorder: 1
+nav_order: 1
 ---
 
 # Basic Information

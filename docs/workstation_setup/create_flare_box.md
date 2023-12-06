@@ -26,21 +26,24 @@ When running `vagrant up FlareVM` a virtual machine with following settings gets
 
 Table...
 
-For more details inspect the [Vagrantfile]<https://github.com/stretfordStart/soc_workstation/blob/ad7ce2186f62ce61a45d1bbf7dcc4a703061ae25/vms/setup/Vagrantfile>
+For more details inspect the [Vagrantfile](https://github.com/stretfordStart/soc_workstation/blob/ad7ce2186f62ce61a45d1bbf7dcc4a703061ae25/vms/setup/Vagrantfile)
 
 In order to further customize the VM a Provisioning PowerShell Script "flare_provision.ps1" is used.
 The script completes following steps:
 
 steps...
 
-For more details inspect the actual [Script]<https://github.com/stretfordStart/soc_workstation/blob/ad7ce2186f62ce61a45d1bbf7dcc4a703061ae25/vms/setup/flare_provision.ps1>
+For more details inspect the actual [Script](https://github.com/stretfordStart/soc_workstation/blob/ad7ce2186f62ce61a45d1bbf7dcc4a703061ae25/vms/setup/flare_provision.ps1)
 
 ### Install Additional Software
 
 The Provisioningscript is not flawless and some things still need to be configured manually:
 
 - VM Guest Tools
+  - https://download.virtualbox.org/virtualbox/
+  - Mount ISO or share via shared folder
 - Flare Installation
+  - copy from github + own config...
 
 After reaching the desired base box, the virtual machine needs to be shut down.
 
@@ -57,8 +60,9 @@ It takes about one hour to create the box.
 
 ## Upload to Vagrant Cloud
 
-[See here](upload_box.md)
+[See here](upload_box)
 
 ## Known Issues
 
-- Keyboard Layout
+- Keyboard Layout --> set manually
+- CTRL ALT Delete fails --> set manually

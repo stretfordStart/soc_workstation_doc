@@ -3,6 +3,7 @@ layout: default
 title: Upload Box
 parent: Workstation Setup
 nav_order: 5
+permalink: /docs/workstation_setup/upload_box
 ---
 
 # Upload Box
