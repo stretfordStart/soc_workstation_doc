@@ -2,7 +2,7 @@
 layout: default
 title: Basic Dynamic Analysis
 parent: Analysis Knowhow
-navorder: 3
+nav_order: 3
 ---
 
 # Basic Dynamic Analysis

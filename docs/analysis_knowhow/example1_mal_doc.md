@@ -2,7 +2,7 @@
 layout: default
 title: Example 1 Malicious Document
 parent: Analysis Knowhow
-navorder: 6
+nav_order: 6
 ---
 
 # Example 1 Malicious Document

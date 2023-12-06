@@ -2,7 +2,7 @@
 layout: default
 title: Create REMnux Box
 parent: Workstation Setup
-navorder: 5
+nav_order: 5
 ---
 
 # Create REMnux Box
@@ -30,3 +30,7 @@ navorder: 5
 - install guest additions
 - set locales
 - install custom apps
+
+## Upload to Vagrant Cloud
+
+[See here](upload_box.md)

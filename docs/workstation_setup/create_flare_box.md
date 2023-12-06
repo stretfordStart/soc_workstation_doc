@@ -2,7 +2,7 @@
 layout: default
 title: Create FlareVM Box
 parent: Workstation Setup
-navorder: 3
+nav_order: 3
 ---
 
 # Create FlareVM Box
@@ -57,8 +57,7 @@ It takes about one hour to create the box.
 
 ## Upload to Vagrant Cloud
 
-some steps.. --> move to seperate page, as it is used by Flare and REMnux
-https://blog.ycshao.com/2017/09/16/how-to-upload-vagrant-box-to-vagrant-cloud/
+[See here](upload_box.md)
 
 ## Known Issues
 

@@ -2,7 +2,7 @@
 layout: default
 title: Configure Postinstall
 parent: Workstation Setup
-navorder: 2
+nav_order: 2
 ---
 
 # Configure Postinstall

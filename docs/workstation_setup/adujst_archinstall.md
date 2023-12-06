@@ -2,7 +2,7 @@
 layout: default
 title: Configure Archinstall
 parent: Workstation Setup
-navorder: 1
+nav_order: 1
 ---
 
 # Configure Archinstall

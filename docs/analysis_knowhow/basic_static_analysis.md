@@ -2,7 +2,7 @@
 layout: default
 title: Basic Static Analysis
 parent: Analysis Knowhow
-navorder: 2
+nav_order: 2
 ---
 
 # Basic Static Analysis

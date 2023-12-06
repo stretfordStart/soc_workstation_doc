@@ -2,7 +2,7 @@
 layout: default
 title: Analysis VMs
 parent: VM Setup
-navorder: 1
+nav_order: 1
 ---
 
 # Analysis VMs
