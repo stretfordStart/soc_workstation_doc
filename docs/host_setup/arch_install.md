@@ -68,14 +68,16 @@ Check version:
 archinstall -v
 ```
 
-Tested version: 2.6.3, if you archinstall is older run this to update:
+Tested versions:
+
+- 2.6.3
+- 2.7.1
+
+If your archinstall is older run this to update:
 
 ``` bash
 pacman -Sy archinstall
 ```
-
-{: .highlight}
-Sometimes this command fails becuase of an invalid key, initialise it with: `pacman-key --init`
 
 ### Install git
 
@@ -145,3 +147,9 @@ If not manually declared otherwise, the entire disk gets wiped!
 Choose "Install" to start the installation, this process can take up to 10 minutes, depending on your internet connection and hardware.
 As soon as the installtion is completed, there is an option to chroot into the new system. As the post install steps are all done within the desktop environment, there is no need for this. Choose "No" and reboot the system and make sure to remove the installation media.
 ![Archinstall End Screen](../../assets/images/archinstall_end.png)
+
+## Known Issues
+
+### Invalid Keys when running pacman
+
+Sometimes the command `pacman -Sy` fails becuase of an invalid key, initialise it with: `pacman-key --init`

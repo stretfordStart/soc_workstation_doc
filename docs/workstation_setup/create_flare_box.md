@@ -2,7 +2,7 @@
 layout: default
 title: Create FlareVM Box
 parent: Workstation Setup
-navorder: 2
+navorder: 3
 ---
 
 # Create FlareVM Box
@@ -20,21 +20,33 @@ navorder: 2
 
 ## Install Windows VM
 
-The steps how you can create a Windows VM and install the FlareVM tools are already well documented in the FlareVM GitHub [Repo](https://github.com/mandiant/flare-vm).
-The quickest way to disable Windows Defender is to use this [script](https://github.com/jeremybeaume/tools/blob/master/disable-defender.ps1)
+You could potentially create a new Virtual Machine with a fresh ISO file, and create the FlareVM from Scratch, as described in the offical FlareVM GitHub [Repo](https://github.com/mandiant/flare-vm). But to speed the process up you can also use an existing Vagrant Box and add FlareVM Tools to it.
+Navigate to `/home/soc_user/soc_workstation/vms/setup` there are already the needed files to create a new Base Vagrant Box, containing FlareVM.
+When running `vagrant up FlareVM` a virtual machine with following settings gets created:
 
-- ToDo: script to combine steps such as disabling defener, disable uac, set vagrant key
+Table...
 
-## Install Additional Software
+For more details inspect the [Vagrantfile]<https://github.com/stretfordStart/soc_workstation/blob/ad7ce2186f62ce61a45d1bbf7dcc4a703061ae25/vms/setup/Vagrantfile>
+
+In order to further customize the VM a Provisioning PowerShell Script "flare_provision.ps1" is used.
+The script completes following steps:
+
+steps...
+
+For more details inspect the actual [Script]<https://github.com/stretfordStart/soc_workstation/blob/ad7ce2186f62ce61a45d1bbf7dcc4a703061ae25/vms/setup/flare_provision.ps1>
+
+### Install Additional Software
+
+The Provisioningscript is not flawless and some things still need to be configured manually:
 
 - VM Guest Tools
-- Vagrant Dependencies
+- Flare Installation
 
 After reaching the desired base box, the virtual machine needs to be shut down.
 
 ## Create Box
 
-To create a box use this command:
+To create a Vagrant Box use this command:
 
 ``` bash
 vagrant package --base flare --output flareVm.box
@@ -47,3 +59,7 @@ It takes about one hour to create the box.
 
 some steps.. --> move to seperate page, as it is used by Flare and REMnux
 https://blog.ycshao.com/2017/09/16/how-to-upload-vagrant-box-to-vagrant-cloud/
+
+## Known Issues
+
+- Keyboard Layout

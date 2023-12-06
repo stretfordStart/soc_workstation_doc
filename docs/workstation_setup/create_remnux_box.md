@@ -2,7 +2,7 @@
 layout: default
 title: Create REMnux Box
 parent: Workstation Setup
-navorder: 3
+navorder: 5
 ---
 
 # Create REMnux Box
