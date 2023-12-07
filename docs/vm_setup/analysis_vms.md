@@ -32,8 +32,8 @@ Note: If `vagrant up` is run the first time, the VMs are downloaded from the Vag
 
 Once the Download is completed and the Hash values match, the virtual machines should start in VirtualBox:
 
-picture
+![VMs in Virtualbox](../../assets/images/vms_running.png)
 
 ## Analysis Workflow
 
-Before using the virtual machine environment to Analyse potential Malware, please visit the [Analysis Knowhow Page](../analysis_knowhow/analysis_knowhow).
+Before using the virtual machine environment to Analyse potential Malware, please visit the [Analysis Knowhow Page](../analysis_knowhow).

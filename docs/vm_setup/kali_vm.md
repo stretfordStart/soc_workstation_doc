@@ -26,6 +26,6 @@ To acquire a Kali Linux VM, follow these steps:
 
 3. Upon completion, a new Virtual Machine should be visible in VirtualBox.
 
-picture
+![Kali VM](../../assets/images/kali_vm.png)
 
 Please note that since the Kali VM is directly provided by the producer, there is no guarantee that the Virtual Machine will function flawlessly. It's advisable to refer to the official documentation or support channels for troubleshooting in case of any issues.
