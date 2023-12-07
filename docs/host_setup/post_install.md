@@ -46,7 +46,12 @@ The script performs the following tasks:
 * Set keybinding "Super" + "T" for opening Tilix
 * Open this website in Firefox
 
-For more details or information on adjusting these settings, check out the [Workstation Setup](docs/workstation_setup/adjust_postinstall).
+For more details or information on adjusting these settings, check out the [Workstation Setup]({% link /docs/workstation_setup/adjust_postinstall.md %}).
+[Workstation Setup](/docs/workstation_setup/adjust_postinstall.md)
+[Workstation Setup](../workstation_setup/adjust_postinstall.md)
+[Workstation Setup](/docs/workstation_setup/adjust_postinstall)
+[Workstation Setup](../workstation_setup/adjust_postinstall)
+[Workstation Setup](adjust_postinstall)
 
 After running it the desktop should look like this:
 ![Desktop Overview](../../assets/images/Desktop.png)

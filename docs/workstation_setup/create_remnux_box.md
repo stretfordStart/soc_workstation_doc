@@ -29,7 +29,6 @@ As with FlareVM you could just use the provided files from the `/home/soc_user/s
 | Base Box: [generic/ubuntu2004](https://app.vagrantup.com/generic/boxes/ubuntu2004) |
 | 8GB RAM |
 | 2 CPU Cores |
-| VMSVGA Graphics Controller |
 | A shared folder with /home/soc_user/Documents/share as base |
 | Default NAT network interface for NIC1 |
 | Isolated network "Analyis Network" for NIC2, with IP 10.0.0.3 |
@@ -81,4 +80,5 @@ Workaround: Run `vagrant up REMnux --provision` to provision the VM again, the e
 ### Screen flickering when in Fullscreen Mode
 
 When using the REMnux VM in a certain Windowsize the Screen begins to flicker.
-This behaviour was observed when using any Display Adapter other than VMSVGA, make sure you are using VMSVGA if your screen flickers.
+
+Workaround: Switch the Display Adapter to VMSVGA.

@@ -36,4 +36,4 @@ picture
 
 ## Analysis Workflow
 
-Before using the virtual machine environment to Analyse potential Malware, please visit the [Analysis Knowhow Page](docs/analysis_knowhow).
+Before using the virtual machine environment to Analyse potential Malware, please visit the [Analysis Knowhow Page](../analysis_knowhow/analysis_knowhow).
