@@ -9,5 +9,11 @@ nav_order: 1
 
 This chapter describes how you adjust the archinstall configuration.
 
-- configs (VM)
+- credentials
 - explain settings
+  - packages
+  - parallel downloads (manage speed)
+  - greeter
+  - Desktop Environment (attention, could contain bloat)
+- export settings
+- explain custom-commands

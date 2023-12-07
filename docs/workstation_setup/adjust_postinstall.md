@@ -8,7 +8,14 @@ permalink: /docs/workstation_setup/adjust_postinstall
 
 # Configure Postinstall
 
-This chapter describes how you adjust the archinstall configuration.
+This chapter describes how you adjust the postinstall configuration:
 
-- configs (VM)
 - explain settings
+  - input sources
+  - color scheme
+  - favourite apps
+  - theme
+  - icons
+  - background
+  - keybinding, if you dont want flameshot
+  - remove page

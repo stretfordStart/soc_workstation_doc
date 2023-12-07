@@ -8,4 +8,4 @@ permalink: docs/vm_setup
 
 # VM Setup
 
-Into to VM setup
+This Chapter shows how to add the Analysis VMs and a Kali Linux VM, using preconfigured Machines from the Vagrant Cloud.
