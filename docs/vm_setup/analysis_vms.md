@@ -28,12 +28,12 @@ Open Tilix and navigate to the following location: `/home/soc_user/soc_workstati
 In this folder is a `Vagrantfile` located which adds REMnux and FlareVM Virtualmachines to Virtualbox. Run `vagrant up FlareVM REMnux` to add them.
 
 {: .highlight}
-If vagrant up is run the first time, the VMs are downloaded from the Vagrant Cloud, which takes a few minutes.
+Note: If `vagrant up` is run the first time, the VMs are downloaded from the Vagrant Cloud, which takes a few minutes.
+
 Once the Download is completed and the Hash values match, the virtual machines should start in VirtualBox:
 
 picture
 
 ## Analysis Workflow
 
-Before using the virtual machine environment to Analyse potential Malware, please visit the [Analysis Knowhow Page](../analysis_knowhow/analysis_knowhow.md).
-[TestLink](/docs/analysis_knowhow)
+Before using the virtual machine environment to Analyse potential Malware, please visit the [Analysis Knowhow Page](docs/analysis_knowhow).

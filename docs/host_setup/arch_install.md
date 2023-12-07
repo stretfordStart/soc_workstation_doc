@@ -144,6 +144,7 @@ With the default config the follwing settings are set:
 
 {: .highlight}
 Note: The disk configuration often requires changes. For simplicity, the best-effort partition layout is recommended.
+
 Choose the disk where the operating system should be installed:
 ![Archinstall Disk Setup](../../assets/images/archinstall_disk.png)
 
