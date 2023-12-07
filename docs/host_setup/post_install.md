@@ -49,14 +49,14 @@ The script does the following:
 For more details or how to adjust these settings check out the Workstation Setup.
 
 After running it the desktop should look like that:
-![Desktop Overview](../../assets/images/Desktop.png)
+![Desktop Overview](../../assets/images/desktop.png)
 
 ## Known Issues
 
 ### Power Settings
 
 The power settings from the postinstall script should disable any powersaving options, but the screen still dims after a few minutes as visible in the gnome settings:
-![Power Settings](../../assets/images/Powersettings.png)
+![Power Settings](../../assets/images/powersettings.png)
 
 You can manually deactivate these settings.
 

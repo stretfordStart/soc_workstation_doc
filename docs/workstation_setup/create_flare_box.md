@@ -56,13 +56,6 @@ For more details inspect the actual [Script](https://github.com/stretfordStart/s
 
 The Provisioningscript is not flawless and some things still need to be configured manually.
 
-### Guest Additions
-
-Usually the Guest Additions should be installed, if you are using the Vagrant Plugin vagrant-vbguest, as in this Case.
-However after setting up the VM with Vagrant, some of the VB-Guest functionalities do not work.
-Workaround: Download the VB-Guest ISO matching your VirtualBox Version here: <https://download.virtualbox.org/virtualbox/>
-Share the ISO with the Sharedfolder or Attach it as a Disk to the VM.
-
 ### Flare Installation
 
 The installation of the FlareVM Tools require several restarts which is why it is not done with the Provisioning Script.
@@ -95,11 +88,21 @@ It takes about one hour to create the box.
 ### Keyboard Layout
 
 The Keyboard Layout set in the Provisioning Script is not active.
+
 Workaround: Manually select prefered Layout in Gnome Settings.
+
+### Guest Additions
+
+Usually the Guest Additions should be installed, if you are using the Vagrant Plugin vagrant-vbguest, as in this Case.
+However after setting up the VM with Vagrant, some of the VB-Guest functionalities do not work.
+
+Workaround: Download the VB-Guest ISO matching your VirtualBox Version here: <https://download.virtualbox.org/virtualbox/>
+Share the ISO with the Sharedfolder or Attach it as a Disk to the VM.
 
 ### Deactivate CTRL+ALT+DELETE for Logon fails
 
 The part of the Provisioning Script where the need for CTRL+ALT+DELETE on Logon get deactivated fails.
+
 Workaround: Manually deactivate it:
 
 - Open `secpol.msc`

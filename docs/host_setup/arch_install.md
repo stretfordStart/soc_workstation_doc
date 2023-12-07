@@ -20,9 +20,9 @@ nav_order: 2
 
 ## Preparation
 
-### Set keyboard layout
+### Set Keyboard Layout
 
-Swiss German:
+Set desired Keyboard Layout, in this example Swiss German.
 
 ``` bash
 loadkeys de_CH-latin1
@@ -73,7 +73,7 @@ Tested versions:
 - 2.6.3
 - 2.7.1
 
-If your archinstall is older run this to update:
+If your archinstall version is older run this to update:
 
 ``` bash
 pacman -Sy archinstall
