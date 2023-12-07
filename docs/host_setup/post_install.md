@@ -65,14 +65,14 @@ You can manually deactivate these settings.
 When using vagrant to provision a Windows based Virtualmachine in a later step, WinRM is used to run commands on the guest system.
 With the default setup this step will yield an error, because the connection will timeout.
 The reason for this timeout is that WinRM uses MD4 for Hashing, which is not supported by recent OpenSSL versions.
-A workaround for this issue can be found here: <https://github.com/hashicorp/vagrant/issues/13076#issuecomment-1439388860>
+A workaround for this issue can be found [here](https://github.com/hashicorp/vagrant/issues/13076#issuecomment-1439388860).
 
 Basically you need to modify `/etc/ssl/openssl.cnf`.
 
 Old config:
 
 ```
- [provider_sect]
+[provider_sect]
 ##default = default_sect
 ##legacy = legacy_sect
 ##
@@ -86,6 +86,7 @@ Old config:
 New config:
 
 ```
+[provider_sect]
 default = default_sect
 legacy = legacy_sect
 
