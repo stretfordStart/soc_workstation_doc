@@ -71,7 +71,7 @@ Basically you need to modify `/etc/ssl/openssl.cnf`.
 
 Old config:
 
-```json
+```
  [provider_sect]
 ##default = default_sect
 ##legacy = legacy_sect
@@ -85,7 +85,7 @@ Old config:
 
 New config:
 
-```json
+```
 default = default_sect
 legacy = legacy_sect
 
