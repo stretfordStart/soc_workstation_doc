@@ -61,18 +61,21 @@ For more details inspect the actual [Script](https://github.com/stretfordStart/s
 ### Keyboard Layout
 
 The Keyboard Layout set in the Provisioning Script is not active.
+
 Workaround: manually select prefered Layout in Gnome Settings.
 
 ### Guest Additions
 
 Usually the Guest Additions should be installed, if you are using the Vagrant Plugin vagrant-vbguest, as in this Case.
 However after setting up the VM with Vagrant, some of the VB-Guest functionalities do not work.
+
 Workaround: Download the VB-Guest ISO matching your VirtualBox Version here: <https://download.virtualbox.org/virtualbox/>
 Share the ISO with the Sharedfolder or Attach it as a Disk to the VM.
 
 ### REMnux Installation Error
 
 During the Setup with Vagrant the Provisioning Script fails when trying to install `remnux_theme`.
+
 Workaround: Run `vagrant up REMnux --provision` to provision the VM again, the error usually only occurs on the first run.
 
 ### Screen flickering when in Fullscreen Mode

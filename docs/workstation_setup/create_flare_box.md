@@ -69,7 +69,7 @@ The installation of the FlareVM Tools require several restarts which is why it i
 But the necessary Script is downloaded and once the Provisioning is completed you can install it manually.
 For the installation open PowerShell with elevated Priviledges and run the following Command:
 
-```PowerShell
+```powershell
 C:\Users\Vagrant\install.ps1 -password malware -noWait -noGui -noChecks -customConfig https://raw.githubusercontent.com/stretfordStart/soc_workstation/main/vms/setup/config.xml
 ```
 
