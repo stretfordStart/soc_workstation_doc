@@ -3,6 +3,7 @@ layout: default
 title: Configure Postinstall
 parent: Workstation Setup
 nav_order: 2
+permalink: /docs/workstation_setup/adjust_postinstall
 ---
 
 # Configure Postinstall

@@ -23,7 +23,7 @@ nav_order: 3
 If you have not changed the credentials, use the following to log in:
 
 | User | Password |
-|:-----|:-----|
+|:-----:|:-----:|
 | soc_user | malware |
 
 ## Run Postinstsall Script
@@ -34,7 +34,7 @@ Open the terminal application (Tilix) and run the following command:
 sh /home/soc_user/soc_workstation/init.sh
 ```
 
-The script does the following:
+The script performs the following tasks:
 
 * Set power settings
 * Set keyboard layout to de_CH
@@ -46,46 +46,45 @@ The script does the following:
 * Set keybinding "Super" + "T" for opening Tilix
 * Open this website in Firefox
 
-For more details or how to adjust these settings check out the Workstation Setup.
+For more details or information on adjusting these settings, check out the [Workstation Setup](../workstation_setup/adjust_postinstall.md).
 
-After running it the desktop should look like that:
-![Desktop Overview](../../assets/images/desktop.png)
+After running it the desktop should look like this:
+![Desktop Overview](../../assets/images/Desktop.png)
 
 ## Known Issues
 
 ### Power Settings
 
-The power settings from the postinstall script should disable any powersaving options, but the screen still dims after a few minutes as visible in the gnome settings:
-![Power Settings](../../assets/images/powersettings.png)
+The power settings from the post-install script should disable any power-saving options, but the screen may still dim after a few minutes, as visible in the GNOME settings:
+![Power Settings](../../assets/images/Powersettings.png)
 
 You can manually deactivate these settings.
 
 ### WinRM Connection Issue
 
-When using vagrant to provision a Windows based Virtualmachine in a later step, WinRM is used to run commands on the guest system.
-With the default setup this step will yield an error, because the connection will timeout.
-The reason for this timeout is that WinRM uses MD4 for Hashing, which is not supported by recent OpenSSL versions.
-A workaround for this issue can be found [here](https://github.com/hashicorp/vagrant/issues/13076#issuecomment-1439388860).
+When using Vagrant to provision a Windows-based Virtual Machine in a later step, WinRM is used to run commands on the guest system. With the default setup, this step may yield an error because the connection will timeout.
+
+The reason for this timeout is that WinRM uses MD4 for hashing, which is not supported by recent OpenSSL versions. A workaround for this issue can be found [here](https://github.com/hashicorp/vagrant/issues/13076#issuecomment-1439388860).
 
 Basically you need to modify `/etc/ssl/openssl.cnf`.
 
 Old config:
 
-```
+```shell
 [provider_sect]
-##default = default_sect
-##legacy = legacy_sect
-##
-##[default_sect]
-##activate = 1
-##
-##[legacy_sect]
-##activate = 1
+#default = default_sect
+#legacy = legacy_sect
+#
+#[default_sect]
+#activate = 1
+#
+#[legacy_sect]
+#activate = 1
 ```
 
 New config:
 
-```
+```shell
 [provider_sect]
 default = default_sect
 legacy = legacy_sect

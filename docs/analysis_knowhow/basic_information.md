@@ -9,7 +9,7 @@ nav_order: 1
 
 - danger warning
 - ensure no internet connection available
-- managing zipped files
 - sharing files
+- managing zipped files
 - reporting
 - cleanup

@@ -24,13 +24,14 @@ Download the current version of Arch Linux [here](https://archlinux.org/download
 
 ## Create Install Media
 
-Create an installation medium with your preferred Tool such as [Rufus](https://rufus.ie/) or [balenaEtcher](https://etcher.balena.io/).
+Generate an installation medium using your preferred tool, such as [Rufus](https://rufus.ie/) or [balenaEtcher](https://etcher.balena.io/).
 
-## Disable Secureboot
+## Disable Secure Boot
 
-Navigate to your workstations BIOS / UEFI settings and disable Secure Boot.
+Access your workstation's BIOS/UEFI settings and disable Secure Boot.
 
 ## Enable VT-x
 
-Later on virtualization will be needed, so make sure to enable it now, as this also needs to be adjusted within the BIOS / UEFI settings.
-Now you should be ready to start the Linux Arch installation by booting from the previously created installation medium.
+Ensure that virtualization is enabled, as it will be required later. Adjust the VT-x setting within the BIOS/UEFI settings. This step is crucial for virtualization to function properly.
+
+You are now prepared to initiate the Arch Linux installation by booting from the previously created installation medium.
