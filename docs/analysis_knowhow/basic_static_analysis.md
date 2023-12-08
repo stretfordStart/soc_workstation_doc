@@ -58,7 +58,13 @@ http://huskyhacks.dev
 ping 1.1.1.1 -n 1 -w 3000 > Nul & C:\Users\Public\Documents\CR433101.dat.exe
 ```
 
-Those strings could also just be there to misslead the analyst and that is why this info needs to be handled with caution.
+It's essential to approach the identified strings with caution, as they could potentially be intentionally misleading to confuse the analyst. This information should be handled with care and considered within the broader context of the analysis.
+
+Adversarial actors often employ tactics to obfuscate their intentions, including the inclusion of deceptive strings within the binary. Analysts should be aware of the possibility of misinformation and exercise diligence in their interpretation.
+
+While strings can offer valuable insights, their significance should be verified through cross-referencing with other indicators and analysis techniques. Relying solely on identified strings may lead to inaccurate conclusions.
+
+In summary, treat the information gleaned from strings as one piece of the puzzle, subject to validation and careful consideration within the overall analytical process.
 
 ## Import Address Table
 

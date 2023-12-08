@@ -29,7 +29,7 @@ When sharing files with the workstation, it's essential to follow secure practic
    Always zip the file that needs to be analyzed before sharing. This step helps to organize and compress the data for efficient transfer.
 
 2. **Encryption:**
-   Encrypt the zip file with a password to enhance security. Use a strong password, and consider using a standard password like "infected" for consistency.
+   Encrypt the zip file with a password to prevent accidental use and consider using a standard password like "infected" for consistency.
 
 3. **Secure Transmission:**
    Ensure that the file is transmitted securely. For secure transfer options consider the following options:
@@ -56,14 +56,14 @@ By executing the `tmpmail` command, you can view the current inbox, and using `t
 
 ![Temporary Mail Inbox](../../assets/images/read_tmpmail.png)
 
+Please note that after downloading the file from the File Share, ensure its immediate deletion. As the temporary mail client can be accessed by anyone who knows the generated email address, it is crucial to follow secure file-sharing practices. Consider using reputable sharing services that offer features such as download tracking and prevention of multiple downloads for enhanced security.
+
 ## Sharing Files with the VM
 
 Utilize VirtualBox's Shared Folder feature to conveniently share files between the host and virtual machines.
 With the provided VMs it should be configured that the folder `/home/soc_user/Documents/share` is shared across all machines:
 
 ![Shared Folders](../../assets/images/shared_folder.png)
-
-Please note that after downloading the file from the File Share, ensure its immediate deletion. As the temporary mail client can be accessed by anyone who knows the generated email address, it is crucial to follow secure file-sharing practices. Consider using reputable sharing services that offer features such as download tracking and prevention of multiple downloads for enhanced security.
 
 ## Reporting
 

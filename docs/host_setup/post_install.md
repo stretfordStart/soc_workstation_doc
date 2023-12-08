@@ -51,7 +51,7 @@ For more details or information on adjusting these settings, check out the [Work
 After running it the desktop should look like this:
 ![Desktop Overview](../../assets/images/Desktop.png)
 
-Once this Status is reached you can continue with the [VM Setup](../vm_setup/vm_setup).
+Once this Status is reached you can continue with the [VM Setup](../vm_setup).
 
 ## Known Issues
 
