@@ -53,8 +53,38 @@ Ensure that DNS simulation is also active. If not, modify the InetSim configurat
 
 Wireshark is a network protocol analyzer essential for dynamic analysis. It captures and scrutinizes network traffic, offering analysts valuable insights into the communication patterns between a system and the network during malware execution. With its user-friendly interface and robust features, Wireshark plays a key role in identifying unusual or malicious network behaviors, contributing to a better understanding of potential threats in real-time.
 
-- network interface...
+<!---- network interface...-->
+
+You can start Wireshark on Remnux with the command:
+```
+sudo wireshark
+```
+You can start Wireshark on Flare from the start menu or the folder C:\Users\flare\Desktop\Tools\Networking
+
+1. Choose the Networkinterface wich you want to observe
+2. Start capturing
+3. You can set filters to filter for specific indicators
+![Open Wireshark on Remnux](../../assets/images/wireshark_open_remnux.png)
+
+<!---You can start Wireshark on Flare from the start menu or the folder C:\Users\flare\Desktop\Tools\Networking
+
+![Open Wireshark on Flare](../../assets/images/wireshark_open_flare.png)-->
+
+
 
 ## Procmon
 
-Text
+Process Monitor is a tool from Windows Sysinternals, part of the Microsoft TechNet website. The tool monitors and displays in real-time all file system activity on a Microsoft Windows or Unix-like operating system. It combines two older tools, FileMon and RegMon and is used in system administration, computer forensics, and application debugging. Process Monitor monitors and records all actions attempted against the Microsoft Windows Registry. Process Monitor can be used to detect failed attempts to read and write registry keys. It also allows for filtering on specific keys, processes, process IDs, and values. In addition it shows how applications use files and DLLs, detects some critical errors in system files and more.
+
+The most powerfull feature is the filter
+![Procmon Filter](../../assets/images/procmon_filter.png)
+
+Following some examples of usefull filters:
+Search for processes of the malware with the name of the malware
+![Procmon Filter Example 1](../../assets/images/procmon_filter_example1.png)
+
+Search for file creation/deletion/modifications
+![Procmon Filter Example 2](../../assets/images/procmon_filter_example2.png)
+
+Search for Floss extracted strings
+![Procmon Filter Example 3](../../assets/images/procmon_filter_example3.png)
