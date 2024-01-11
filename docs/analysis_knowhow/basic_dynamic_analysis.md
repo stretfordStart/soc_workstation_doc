@@ -80,6 +80,7 @@ The most powerfull feature is the filter
 ![Procmon Filter](../../assets/images/procmon_filter.png)
 
 Following some examples of usefull filters:
+
 Search for processes of the malware with the name of the malware
 ![Procmon Filter Example 1](../../assets/images/procmon_filter_example1.png)
 
